@@ -1,0 +1,10 @@
+.search_news {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    line-height: 15px;
+    margin-bottom: 15px;
+  }
+  
