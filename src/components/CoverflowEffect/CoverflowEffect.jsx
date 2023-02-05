@@ -5,7 +5,6 @@
 
   const CoverflowEffect = (props) => {
     const {news} = props;
-
     const params = {
       effect: 'coverflow',
       grabCursor: true,
@@ -22,7 +21,6 @@
         el: '.swiper-pagination'
       }
     }
-
     return (
       <Swiper {...params}>
          {news.map((article,idx) => {
